@@ -2,6 +2,9 @@ const router = require('express').Router();
 const poll = require('../models/pollModel');
 const requiredAuth = require('../middlewares/auth');
 
+router.get('/', (req, res) => {
+    res.send('working fine')
+})
 router.post('/vote', async (req, res) => {
     try {
         // basic validation 
