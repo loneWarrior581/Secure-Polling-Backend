@@ -28,6 +28,6 @@ app.use('/user', require('./router/userRouter'))
 app.use('/', require('./router/pollRouter'));
 
 
-app.listen(8000, () => {
+app.listen(PORT, () => {
     console.log(`Server started running on port http://localhost:${PORT}`);
 })
