@@ -4,7 +4,7 @@
   "description": "Backend repo for the secure polling application ",
   "main": "server.js",
   "scripts": {
-    "start": "node server"
+    "start": "nodemon server"
   },
   "author": "Runtime terrors",
   "license": "ISC",

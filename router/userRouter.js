@@ -119,3 +119,21 @@ router.get('/', requiredAuth, async (req, res) => {
 
 module.exports = router;
 // https://youtu.be/sWfD20ortB4?list=PLJM1tXwlGdaf57oUx0rIqSW668Rpo_7oU&t=1334
+
+
+
+// router.put('/editBlog', requiredAuth, async (req, res) => {
+//     try {
+//         // code for editing  the blog
+//     } catch (error) {
+//         res.status(500).json({ err: "denied permission  !!" })
+//     }
+// });
+
+// router.get('/public', ensureGuest, async (req, res) => {
+//     try {
+//         // code for sending the public blogs
+//     } catch (error) {
+//         res.status(500).json({ err: 'Unexpected error!!' })
+//     }
+// })
